@@ -14,10 +14,9 @@ function addToCart(event) {
    }
 
 cartBtn.addEventListener('click', updateBtn);
-console.log(cartBtn);
    
 function updateBtn() {
     btnCart.textContent = "Déjà au panier";
-   }
-   
-
+    btnCart.disabled = true ;
+   }  
+ 

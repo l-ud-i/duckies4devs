@@ -43,6 +43,11 @@ ul {
     padding: 0;
     list-style: none;
 }
+
+.remove {
+    display: none;
+}
+
 dl, dt, dd {
     margin: 0;
 }

@@ -13,32 +13,11 @@ function addToCart(event) {
     cartHeader.textContent = sumCart++;
    }
 
+cartBtn.addEventListener('click', updateBtn);
+console.log(cartBtn);
+   
+function updateBtn() {
+    btnCart.textContent = "Déjà au panier";
+   }
+   
 
-// accordeons
-
-let btnAvantages = document.getElementById("btnProductDescription");
-btnAvantages.addEventListener('click', switchCLass);
-
-let ulProductDescription = document.getElementById("removeUl")
-
-function switchCLass(event) {
-    if (ulProductDescription.classList.contains('remove')) {
-        ulProductDescription.classList.remove('remove');
-    }
-    else {
-        ulProductDescription.classList.add("remove");
-    }  
-}
-
-
-// let btnCaracteristiques = document.getElementById("btnProductFeatures");
-// btnCaracteristiques.addEventListener('click', changeCLass)
-
-// let dtProductFeatures = document.getElementById("removeFeatures")
-// console.log(dtProductFeatures);
-
-// function changeCLass(event) {
-//     dtProductFeatures.classList.toggle("remove");
-// }
-
-    

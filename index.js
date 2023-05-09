@@ -18,5 +18,8 @@ cartBtn.addEventListener('click', updateBtn);
 function updateBtn() {
     btnCart.textContent = "Déjà au panier";
     btnCart.disabled = true ;
+    // btnCart.classList.remove("add-cta");
+    btnCart.classList.add("add-cta-disable");
+
    }  
  

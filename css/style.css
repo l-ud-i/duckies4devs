@@ -269,6 +269,10 @@ body {
     background-color: var(--background-dark)
 }
 
+.add-cta-disable {
+    background-color: var(--background-dark);
+}
+
 /* PICTURES */
 
 .pictures {

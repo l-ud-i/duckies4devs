@@ -1,3 +1,16 @@
+// photos gallery
+
+let previousBtn = document.getElementById("previousBtn");
+previousBtn.addEventListener('click', changeimg);
+
+let imgList = document.getElementById("list");
+
+const images = document.getElementById("images");
+ 
+function changeimg(event) {
+    images.src = "img/canard-jaune-2-l.png";
+}
+
 // cart
 
 let cartBtn = document.getElementById("btnCart");

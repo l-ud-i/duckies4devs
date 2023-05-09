@@ -4,9 +4,8 @@ let cartBtn = document.getElementById("btnCart");
 cartBtn.addEventListener('click', addToCart)
 
 let cartNb = document.getElementById("cartNb");
-// console.log(cartNb);
 
-let sumCart = 0;
+let sumCart = 1;
 
 function addToCart(event) {
     cartNb.textContent = sumCart++;
